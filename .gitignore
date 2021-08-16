@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Virtual Env
+envi/
+
+# Bot Token (private)
+token.txt
+
 # Distribution / packaging
 .Python
 build/
