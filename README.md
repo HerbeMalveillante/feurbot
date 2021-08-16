@@ -2,7 +2,7 @@
 Un bot Discord très simple et pourtant essentiel pour tout bon serveur qui se respecte
 
 
-![https://media.discordapp.net/attachments/789955905151696946/876868170588254289/Screenshot_2021-08-16_at_18.40.37.png]
+![une démonstration en image](https://media.discordapp.net/attachments/789955905151696946/876868170588254289/Screenshot_2021-08-16_at_18.40.37.png "hilarant n'est ce pas ?")
 
 
 ## Comment ça marche ?
