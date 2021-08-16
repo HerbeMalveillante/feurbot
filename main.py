@@ -25,17 +25,23 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.content.lower().endswith("quoi"):
+
+    stripped_message = message.content.lower().strip(" .:?!")
+
+    if stripped_message.endswith("quoi"):
         await message.channel.send("feur")
         print(f"ahah on vient d'avoir {message.author}")
-    elif message.content.lower().endswith("oui"):
+    elif stripped_message.endswith("oui"):
         await message.channel.send("stiti")
         print(f"ahah on vient d'avoir {message.author}")
-    elif message.content.lower().endswith("non"):
+    elif stripped_message.endswith("non") or stripped_message.endswith("nom"):
         await message.channel.send("bril")
         print(f"ahah on vient d'avoir {message.author}")
-    elif message.content.lower().endswith("ouais"):
+    elif stripped_message.endswith("ouais"):
         await message.channel.send("stern")
+        print(f"ahah on vient d'avoir {message.author}")
+    elif stripped_message.endswith("ça") or message.content.lower().endswith("sa"):
+        await message.channel.send("pristi")
         print(f"ahah on vient d'avoir {message.author}")
 
 
