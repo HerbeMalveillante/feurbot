@@ -26,7 +26,7 @@ async def on_ready():
 @bot.event
 async def on_message(message):
 
-    stripped_message = message.content.lower().strip(" .:?!*")
+    stripped_message = message.content.lower().strip(" .:?!*\)")
 
     if stripped_message.endswith("quoi"):
         await message.channel.send("feur")
