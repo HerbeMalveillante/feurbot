@@ -53,7 +53,7 @@ async def on_message(message):
     
     elif message.content == "f!serverlist":
         serverlist = '\n'.join([guild.name + ' - (' + str(len(guild.members)) + ' membres)' for guild in bot.guilds])
-        await message.channel.send(f"Liste des serveurs : {serverlist}")
+        await message.channel.send("Liste des serveurs : \n" + serverlist)
 
 bot.run(token, bot=True, reconnect=True)
 print("CONNEXION TERMINATED")
