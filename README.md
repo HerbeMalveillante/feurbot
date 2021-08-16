@@ -1,6 +1,10 @@
 # feurbot
 Un bot Discord très simple et pourtant essentiel pour tout bon serveur qui se respecte
 
+
+![https://media.discordapp.net/attachments/789955905151696946/876868170588254289/Screenshot_2021-08-16_at_18.40.37.png]
+
+
 ## Comment ça marche ?
 
 C'est très simple ! Installez simplement le module discord à l'aide de la commande
