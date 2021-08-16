@@ -46,6 +46,9 @@ async def on_message(message):
     elif stripped_message.endswith("allo"):
         await message.channel.send("à l'huile")
         print(f"ahah on vient d'avoir {message.author}")
+    elif stripped_message.endswith("ok") or stripped_message.endswith("okay") :
+        await message.channel.send("sur glace")
+        print(f"ahah on vient d'avoir {message.author}")
 
 
     if message.content == "f!servers":
